@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width:930px)">
 </head>
 <body>
     <header>
@@ -54,8 +55,6 @@
                         <p> <b>Actualizado: </b>19 Julio 23:45</p>
                     </div>
                 </div>
-            </section>
-            <section class="main-tables-container">
                 <div class="main-commission-table">
                     <p class="commission-table--title">Comisiones</p>
                     <div class="commission-table--container">
@@ -83,6 +82,7 @@
                     </div>
                 </div>
             </section>
+            
         </section>
         <section class="main-product-detail">
             <span class="product-detail--batata-logo"></span>
@@ -126,18 +126,46 @@
                 <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
             </div>
             <section class="plans-container--slider">
+                <article class="plans-container--card">                 
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span> 99</p>
+                        <p class="plan-card--saving">*Ahorras $129 comprando al plan mensual.</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
+                    </div>
+                </article>
                 <article class="plans-container--card">
-                    <p>Recomendado</p>
-                    <div>
-                        <h3>Pago Anual</h3>
-                        <p><span>$</span> 99</p>
-                        <p>*Ahorras $129 comprando al plan mensual.</p>
-                        <button>Escoger este <span></span></button>
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span> 99</p>
+                        <p class="plan-card--saving">*Ahorras $129 comprando al plan mensual.</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card">
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span>99</p>
+                        <p class="plan-card--saving">*Ahorras $129 comprando al plan mensual.</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
                     </div>
                 </article>
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul >
+                <li><a href="#">Likedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+
+        </section>
+        <section class="right">
+            <img src="./assets/imgs/logo-footer.svg" alt="Logo de Batatabit 2022">
+        </section>
+    </footer>
 </body>
 </html>
